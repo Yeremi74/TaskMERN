@@ -1,6 +1,6 @@
 import axios from './axios';
 
-// const API = 'http://localhost:3000/api';
+// const API = 'https://taskmern-xlb2.onrender.com/api';
 
 export const registerRequest = (user) => axios.post(`/register`, user);
 
