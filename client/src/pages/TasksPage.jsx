@@ -6,7 +6,6 @@ const TasksPage = () => {
 
   useEffect(() => {
     getTasks();
-    console.log('a');
   }, []);
 
   if (tasks.length == 0) return <h1>No tasks</h1>;
